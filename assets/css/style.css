@@ -1,0 +1,227 @@
+/*Estilos da página index.html*/
+@import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap%27);
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+
+* {
+   margin: 0;
+   padding: 0;
+   
+   }
+
+#bg-img {
+   background-image:url(/assets/bg/bg4-removebg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.center {
+    text-align: center;
+ }
+ 
+ .justify{
+    text-align: justify;
+ }
+ 
+ .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20%;
+ }  
+
+ .container2 {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   padding-top: 60px;
+   background-image: url(/assets/bg/bg_footer.png);
+   padding-bottom: 60px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0px 0px 10px black;
+   
+}  
+
+ #menu {
+    box-shadow: 0px 2px 5px black;
+    height: 15px;
+ }
+ 
+ #menu li {
+    display: inline;
+    font-family: 'Staatliches', cursive;
+    padding-left: 40px;
+    line-height: 20px;
+    
+    
+ }
+ 
+ #menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+ }
+
+ #menu li a:hover {
+    color: #ddd;
+    transition: 1s;
+ }
+
+ #menu-posi ul{
+   display: flex;
+   justify-content: start;
+   
+}
+ 
+p {
+   font-family: 'Raleway', sans-serif;
+}
+ 
+ .p-30 {
+    padding: 30px;
+ }
+ 
+ .br-50 {
+    border-radius: 50%;
+ }
+ 
+ .wh-300{
+    width: 300px;
+    height: 300px;
+ 
+ }
+ 
+ .tm-social {
+    width: 50px;
+    height: 50px;
+ }
+ 
+ .mb-50{
+    margin-bottom: 50px;
+ }
+
+ #menu {
+   background: rgb(144,180,58);
+   background: linear-gradient(90deg, rgba(144,180,58,1) 0%, rgba(132,0,255,1) 0%, rgba(222,69,252,1) 63%);
+   padding: 30px;
+   
+ }
+
+ .titulo {
+    float: left;
+ }
+
+   h1 {
+   font-family: 'Staatliches', cursive;
+   font-size: 60px;
+ }
+
+ .ml-50 {
+   margin-left: 50px;
+}
+
+.foto {
+ 
+     margin-left: 19px;
+
+     background-image: linear-gradient(90deg, rgba(144,180,58,1) 0%, rgba(132,0,255,1) 0%, rgba(222,69,252,1) 63%);
+     background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+     padding: 5px;
+     }
+     
+     .foto > div { background: #fff; 
+     
+     
+     }
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ /*Estilos da página contato.html*/
+ 
+
+ 
+
+.buttons {
+ 
+}
+
+
+.btn-hover {
+   width: 150px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #fff;
+   cursor: pointer;
+   margin: 20px;
+   height: 55px;
+   text-align:center;
+   border: none;
+   background-size: 200% 100%;
+
+   border-radius: 50px;
+   moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+   background-position: 100% 0;
+   moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+   outline: none;
+}
+
+.btn-hover.color-1 {
+   background-image: linear-gradient(90deg, rgba(144,180,58,1) 0%, #8400ff 0%, rgba(222,69,252,1) 63%);
+   box-shadow: 0 4px 15px 0 #8400ff;
+   
+}
+    
+
+input {
+   width: 250px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    
+}
+
+textarea {
+   width: 250px;
+    padding: 7px;
+    border: none;
+    border: 1px solid black;
+    outline: none;
+    resize: none;
+}
+
+label {
+   font-family: 'Staatliches', cursive;
+}
+
+.end p{
+   font-family: 'Staatliches', cursive;
+  
+   margin-bottom: 50px;
+}
+
+h1 {
+   margin-top: 40px;
+}
+ 
