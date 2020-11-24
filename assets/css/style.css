@@ -103,7 +103,7 @@ p {
  }
 
  #menu {
-   background: rgb(144,180,58);
+   
    background: linear-gradient(90deg, rgba(144,180,58,1) 0%, rgba(132,0,255,1) 0%, rgba(222,69,252,1) 63%);
    padding: 30px;
    
@@ -199,7 +199,7 @@ input {
     border: none;
     border-bottom: 1px solid black;
     outline: none;
-    
+    font-family: 'Staatliches';
 }
 
 textarea {
@@ -209,6 +209,7 @@ textarea {
     border: 1px solid black;
     outline: none;
     resize: none;
+    font-family: 'Staatliches';
 }
 
 label {
